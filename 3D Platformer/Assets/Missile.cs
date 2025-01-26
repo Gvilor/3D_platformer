@@ -4,22 +4,25 @@ using UnityEngine;
 
 public class Missile : MonoBehaviour
 {
-    public int speed;
-
-    void Start()
+    //Скорость огненного шара
+    public float speed;
+    
+    void Update() //Происходит каждый кадр(Движение)
     {
         Destroy(gameObject, 3);
-    }
-    
-    void Update()
-    {
+        //каждый кадр позиция шара меняется 
         transform.position += transform.forward * speed * Time.deltaTime;
+
+        print(transform.forward);
     }
 
     public void OnTriggerEnter(Collider other)
     {
+        //Уничтожение врага 
         Enemy enemy = other.GetComponent<Enemy>();
         Destroy(enemy.gameObject);
+
+        //Уничтожение снаряда 
         Destroy(gameObject);
     }
 }

@@ -1,517 +1,516 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1739107104151146, "dur":2122, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1739107104153276, "dur":60, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1739107104153350, "dur":20, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1739107104153372, "dur":599, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1739107104154005, "dur":652, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1739107104154657, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1739107105236693, "dur":397, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1739107105237090, "dur":32, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1739107105237122, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1739107105237126, "dur":67, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1739107105237193, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1739107105237198, "dur":30, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1739107105237228, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1739107105237231, "dur":28, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1739107105237259, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1739107105237261, "dur":27, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1739107105237288, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1739107105237290, "dur":27, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1739107105237317, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1739107105237319, "dur":28, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1739107105237347, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1739107105237350, "dur":29, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1739107105237379, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1739107105237382, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1739107105237404, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1739107105237407, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1739107105237432, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1739107105237434, "dur":27, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1739107105237461, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1739107105237463, "dur":27, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1739107105237491, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1739107105237518, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1739107105237549, "dur":2249, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1739107104154776, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1739107104154777, "dur":7307, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1739107104162097, "dur":67606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":1, "ts":1739107104229708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1739107104230656, "dur":1783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":1, "ts":1739107104232519, "dur":8041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1739107104240650, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1739107104240660, "dur":2887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1739107104243615, "dur":7614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1739107104251233, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1739107104251242, "dur":4940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1739107104256249, "dur":10216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1739107104266469, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1739107104266477, "dur":4805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1739107104271351, "dur":6769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1739107104278124, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1739107104278133, "dur":4494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1739107104282708, "dur":8198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1739107104290911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1739107104290920, "dur":2921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1739107104293910, "dur":94999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1739107104388916, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1739107104388926, "dur":2369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1739107104391362, "dur":89876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":1, "ts":1739107104481245, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1739107104481257, "dur":4501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":1, "ts":1739107104485823, "dur":335515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":1, "ts":1739107104821349, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1739107104821360, "dur":5947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":1, "ts":1739107104827376, "dur":140397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/CFXRRuntime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1739107104967779, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1739107104967790, "dur":2079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/CFXRRuntime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1739107104969949, "dur":266865, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1739107104154693, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1739107104154693, "dur":7382, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1739107104162169, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":2, "ts":1739107104162176, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1739107104164327, "dur":719, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":2, "ts":1739107104165050, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/app.info" }}
-,{ "pid":12345, "tid":2, "ts":1739107104165134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1739107104165502, "dur":3715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/app.info" }}
-,{ "pid":12345, "tid":2, "ts":1739107104169222, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1739107104169432, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1739107104170643, "dur":3661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1739107104174381, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1739107104174671, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1739107104174797, "dur":2500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1739107104177368, "dur":18272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1739107104195648, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1739107104195662, "dur":1881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1739107104197614, "dur":7166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1739107104204787, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1739107104205954, "dur":2431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1739107104208473, "dur":15260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1739107104223768, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1739107104223779, "dur":2484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1739107104226336, "dur":25142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1739107104251483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1739107104251490, "dur":6165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1739107104257721, "dur":8872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1739107104266597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1739107104266605, "dur":7813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1739107104274491, "dur":7720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1739107104282261, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1739107104282303, "dur":4794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1739107104287168, "dur":7255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1739107104294426, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1739107104294434, "dur":4733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1739107104299242, "dur":170498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":2, "ts":1739107104469781, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1739107104469791, "dur":1748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":2, "ts":1739107104471597, "dur":136679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":2, "ts":1739107104608281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1739107104608290, "dur":11047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":2, "ts":1739107104619401, "dur":118643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1739107104738049, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1739107104738059, "dur":31518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1739107104769818, "dur":194889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":2, "ts":1739107104964714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1739107104964724, "dur":3849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":2, "ts":1739107104968652, "dur":268039, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1739107104154766, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1739107104154766, "dur":7339, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1739107104162106, "dur":816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1739107104162964, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1739107104198244, "dur":4083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1739107104202411, "dur":7167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1739107104209583, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1739107104209591, "dur":13924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1739107104223582, "dur":7800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1739107104231418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1739107104231426, "dur":4512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1739107104236057, "dur":7203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1739107104243265, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1739107104243275, "dur":5738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1739107104249078, "dur":8205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1739107104257316, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1739107104257325, "dur":3425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1739107104260820, "dur":8652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1739107104269479, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1739107104269490, "dur":8683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1739107104278247, "dur":9118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":3, "ts":1739107104287369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1739107104287377, "dur":7529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":3, "ts":1739107104294966, "dur":208647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":3, "ts":1739107104503619, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1739107104503631, "dur":2260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":3, "ts":1739107104505963, "dur":201579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":3, "ts":1739107104707549, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1739107104707562, "dur":3816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":3, "ts":1739107104711462, "dur":257588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":3, "ts":1739107104969055, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1739107104969067, "dur":3124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":3, "ts":1739107104972283, "dur":264405, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1739107104154471, "dur":239, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1739107104154711, "dur":7377, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1739107104162097, "dur":24927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1739107104187028, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1739107104187158, "dur":3092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1739107104190337, "dur":7754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":4, "ts":1739107104198096, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1739107104198104, "dur":3272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":4, "ts":1739107104201455, "dur":12456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1739107104213917, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1739107104213928, "dur":6767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1739107104220767, "dur":6711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1739107104227483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1739107104227492, "dur":2492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1739107104230064, "dur":7827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1739107104237897, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1739107104237907, "dur":1371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1739107104239341, "dur":7944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1739107104247291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1739107104247300, "dur":2654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1739107104250020, "dur":7212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1739107104257237, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1739107104257248, "dur":3406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1739107104260720, "dur":7762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1739107104268491, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1739107104268503, "dur":3930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1739107104272549, "dur":7222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1739107104279775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1739107104279783, "dur":3232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1739107104283102, "dur":7043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1739107104290151, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1739107104290162, "dur":2293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1739107104292516, "dur":8293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1739107104300813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1739107104300822, "dur":3420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1739107104304320, "dur":73279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":4, "ts":1739107104377605, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1739107104377615, "dur":1658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":4, "ts":1739107104379339, "dur":1406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":4, "ts":1739107104380752, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1739107104380763, "dur":2207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":4, "ts":1739107104383034, "dur":1498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":4, "ts":1739107104384538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1739107104384548, "dur":1974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":4, "ts":1739107104386601, "dur":69574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1739107104456183, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1739107104456209, "dur":1769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1739107104458047, "dur":336934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":4, "ts":1739107104794989, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1739107104795003, "dur":2305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":4, "ts":1739107104797381, "dur":415237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":4, "ts":1739107105212626, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1739107105212639, "dur":2667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":4, "ts":1739107105215370, "dur":21326, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1739107104155017, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1739107104155017, "dur":7152, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1739107104162171, "dur":25100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1739107104187276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1739107104187285, "dur":3514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1739107104190891, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":5, "ts":1739107104191148, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1739107104191735, "dur":7370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":5, "ts":1739107104199181, "dur":8975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1739107104208161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1739107104208170, "dur":5463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1739107104213738, "dur":7937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1739107104221680, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1739107104221820, "dur":2097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1739107104223993, "dur":7251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1739107104231250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1739107104231259, "dur":1925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1739107104233322, "dur":10149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1739107104243476, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1739107104243484, "dur":3533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1739107104247115, "dur":7502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1739107104254625, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1739107104254636, "dur":2755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1739107104257460, "dur":7246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1739107104264712, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1739107104264722, "dur":1743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1739107104266531, "dur":10354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1739107104276909, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1739107104276922, "dur":2705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1739107104279697, "dur":28369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1739107104308073, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1739107104308083, "dur":54460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1739107104362635, "dur":106399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":5, "ts":1739107104469041, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1739107104469052, "dur":1594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":5, "ts":1739107104470709, "dur":266438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":5, "ts":1739107104737154, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1739107104737165, "dur":2269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":5, "ts":1739107104739503, "dur":224153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":5, "ts":1739107104963663, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1739107104963675, "dur":3973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":5, "ts":1739107104967730, "dur":268988, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1739107104154632, "dur":92, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1739107104154724, "dur":7362, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1739107104162097, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1739107104162353, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1739107104166717, "dur":2668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1739107104169459, "dur":19259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1739107104188722, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1739107104188732, "dur":2074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1739107104190910, "dur":12115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1739107104203030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1739107104203156, "dur":2993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1739107104206214, "dur":9268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1739107104215493, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1739107104215507, "dur":5713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1739107104221309, "dur":8061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1739107104229376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1739107104229385, "dur":3776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1739107104233328, "dur":7948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1739107104241280, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1739107104241289, "dur":2225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1739107104243588, "dur":8418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1739107104252011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1739107104252019, "dur":5145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1739107104257229, "dur":8937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1739107104266171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1739107104266179, "dur":4648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1739107104270904, "dur":6963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1739107104277876, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1739107104277888, "dur":3176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1739107104281134, "dur":6840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1739107104287979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1739107104287987, "dur":5156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1739107104293229, "dur":7223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1739107104300458, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1739107104300468, "dur":2277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1739107104302810, "dur":102044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":6, "ts":1739107104404861, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1739107104404871, "dur":2295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":6, "ts":1739107104407237, "dur":528516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":6, "ts":1739107104935760, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1739107104935771, "dur":4509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":6, "ts":1739107104940366, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":6, "ts":1739107104940436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1739107104940445, "dur":3281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":6, "ts":1739107104943799, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":6, "ts":1739107104943862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1739107104943871, "dur":7443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":6, "ts":1739107104951382, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/level0.resS" }}
-,{ "pid":12345, "tid":6, "ts":1739107104951466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1739107104951475, "dur":1785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/level0.resS" }}
-,{ "pid":12345, "tid":6, "ts":1739107104953327, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":6, "ts":1739107104953395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1739107104953403, "dur":6525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":6, "ts":1739107104960008, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/boot.config" }}
-,{ "pid":12345, "tid":6, "ts":1739107104960267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1739107104960277, "dur":1948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/boot.config" }}
-,{ "pid":12345, "tid":6, "ts":1739107104962303, "dur":274383, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1739107104154751, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1739107104154751, "dur":7341, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1739107104162097, "dur":870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":7, "ts":1739107104162972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1739107104208587, "dur":8614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":7, "ts":1739107104217290, "dur":9835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1739107104227131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1739107104227144, "dur":2631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1739107104229841, "dur":340742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":7, "ts":1739107104570589, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1739107104570599, "dur":3690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":7, "ts":1739107104574355, "dur":392542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":7, "ts":1739107104966907, "dur":64, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1739107104966986, "dur":2629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":7, "ts":1739107104969697, "dur":266992, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1739107104154844, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1739107104154844, "dur":7339, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1739107104162183, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1739107104162403, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1739107104178406, "dur":4120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1739107104182608, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":8, "ts":1739107104182814, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1739107104182825, "dur":2056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":8, "ts":1739107104184957, "dur":3358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":8, "ts":1739107104188320, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1739107104188762, "dur":2598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":8, "ts":1739107104191432, "dur":10889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1739107104202325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1739107104203035, "dur":2383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1739107104205492, "dur":8101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1739107104213625, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1739107104213639, "dur":9728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1739107104223447, "dur":9290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1739107104232741, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1739107104232750, "dur":5240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1739107104238061, "dur":9741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1739107104247806, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1739107104247814, "dur":4405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1739107104252286, "dur":9531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1739107104261822, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1739107104261833, "dur":1733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1739107104263637, "dur":8709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1739107104272350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1739107104272359, "dur":6613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1739107104279053, "dur":7296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1739107104286353, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1739107104286361, "dur":3903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1739107104290335, "dur":7171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1739107104297513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1739107104297523, "dur":3750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1739107104301357, "dur":474630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":8, "ts":1739107104775993, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1739107104776005, "dur":2327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":8, "ts":1739107104778400, "dur":454371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":8, "ts":1739107105232775, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1739107105232783, "dur":3788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":8, "ts":1739107105236638, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":8, "ts":1739107105236642, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1739107104154825, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1739107104154826, "dur":7282, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1739107104162116, "dur":633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":9, "ts":1739107104162754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1739107104189627, "dur":2877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":9, "ts":1739107104192590, "dur":9730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1739107104202325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1739107104203162, "dur":4349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1739107104207581, "dur":14666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1739107104222252, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1739107104222262, "dur":3516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1739107104225856, "dur":8812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1739107104234675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1739107104234685, "dur":6072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1739107104240827, "dur":8286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1739107104249146, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1739107104249155, "dur":8198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1739107104257420, "dur":8969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1739107104266394, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1739107104266437, "dur":5525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1739107104272037, "dur":6817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1739107104278861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1739107104278869, "dur":4009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1739107104283237, "dur":10814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1739107104294056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1739107104294064, "dur":3917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1739107104298054, "dur":125577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":9, "ts":1739107104423638, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1739107104423649, "dur":1559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":9, "ts":1739107104425277, "dur":119717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":9, "ts":1739107104545002, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1739107104545013, "dur":2171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":9, "ts":1739107104547241, "dur":60112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":9, "ts":1739107104607359, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1739107104607370, "dur":1768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":9, "ts":1739107104609203, "dur":335194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":9, "ts":1739107104944402, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1739107104944411, "dur":4930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":9, "ts":1739107104949448, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":9, "ts":1739107104949667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1739107104949679, "dur":1532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":9, "ts":1739107104951277, "dur":18113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":9, "ts":1739107104969395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1739107104969404, "dur":3686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":9, "ts":1739107104973143, "dur":263559, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1739107104154900, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1739107104154900, "dur":7210, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1739107104162111, "dur":24848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":10, "ts":1739107104186977, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1739107104186989, "dur":3162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":10, "ts":1739107104190225, "dur":109530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//UnityPlayer.dll" }}
-,{ "pid":12345, "tid":10, "ts":1739107104299760, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1739107104299768, "dur":27783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//UnityPlayer.dll" }}
-,{ "pid":12345, "tid":10, "ts":1739107104327623, "dur":56028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":10, "ts":1739107104383656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1739107104383666, "dur":6572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":10, "ts":1739107104390303, "dur":1408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":10, "ts":1739107104391716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1739107104391725, "dur":7731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":10, "ts":1739107104399530, "dur":3238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":10, "ts":1739107104402774, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1739107104402786, "dur":2548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":10, "ts":1739107104405395, "dur":243534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":10, "ts":1739107104648937, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1739107104648948, "dur":2086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":10, "ts":1739107104651100, "dur":222952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":10, "ts":1739107104874060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1739107104874070, "dur":3168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":10, "ts":1739107104877302, "dur":99430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":10, "ts":1739107104976737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1739107104976745, "dur":1444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":10, "ts":1739107104978243, "dur":258453, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1739107104154963, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1739107104154963, "dur":7154, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1739107104162118, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":11, "ts":1739107104162449, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1739107104178641, "dur":2214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":11, "ts":1739107104180941, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":11, "ts":1739107104181175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1739107104181185, "dur":2124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":11, "ts":1739107104183388, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":11, "ts":1739107104183558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1739107104183565, "dur":2428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":11, "ts":1739107104186067, "dur":23466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":11, "ts":1739107104209538, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1739107104209650, "dur":10180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":11, "ts":1739107104219907, "dur":8458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1739107104228371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1739107104228380, "dur":3876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1739107104232329, "dur":8030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1739107104240364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1739107104240374, "dur":1526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1739107104241983, "dur":8315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1739107104250302, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1739107104250310, "dur":5551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1739107104255957, "dur":9658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1739107104265620, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1739107104265630, "dur":4190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1739107104269888, "dur":6740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1739107104276641, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1739107104276659, "dur":2628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1739107104279359, "dur":6889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1739107104286254, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1739107104286265, "dur":2322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1739107104288649, "dur":8926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1739107104297580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1739107104297589, "dur":4451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1739107104302139, "dur":2040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":11, "ts":1739107104304186, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1739107104304198, "dur":18295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":11, "ts":1739107104322604, "dur":126952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":11, "ts":1739107104449563, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1739107104449575, "dur":2071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":11, "ts":1739107104451715, "dur":231473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":11, "ts":1739107104683194, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1739107104683205, "dur":27165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":11, "ts":1739107104710437, "dur":239364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":11, "ts":1739107104949806, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1739107104949815, "dur":7622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":11, "ts":1739107104957509, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":11, "ts":1739107104957578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1739107104957590, "dur":2879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":11, "ts":1739107104960555, "dur":276164, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1739107104155110, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1739107104155111, "dur":6984, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1739107104162098, "dur":25406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":12, "ts":1739107104187509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1739107104187518, "dur":3211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":12, "ts":1739107104190811, "dur":91501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer.exe" }}
-,{ "pid":12345, "tid":12, "ts":1739107104282317, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1739107104282331, "dur":4803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer.exe" }}
-,{ "pid":12345, "tid":12, "ts":1739107104287208, "dur":6694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1739107104293907, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1739107104293918, "dur":3751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1739107104297742, "dur":189311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":12, "ts":1739107104487059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1739107104487069, "dur":1985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":12, "ts":1739107104489253, "dur":87802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":12, "ts":1739107104577061, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1739107104577072, "dur":1870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":12, "ts":1739107104579001, "dur":351176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":12, "ts":1739107104930219, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1739107104930232, "dur":4058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":12, "ts":1739107104934354, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":12, "ts":1739107104934571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1739107104936103, "dur":2054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":12, "ts":1739107104938235, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":12, "ts":1739107104938324, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1739107104938430, "dur":3679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":12, "ts":1739107104942176, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":12, "ts":1739107104942246, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1739107104942256, "dur":10177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":12, "ts":1739107104952510, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop//3D Platformer_Data/level0" }}
-,{ "pid":12345, "tid":12, "ts":1739107104952581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1739107104952589, "dur":8358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop//3D Platformer_Data/level0" }}
-,{ "pid":12345, "tid":12, "ts":1739107104961020, "dur":275701, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1739107105242026, "dur":2179, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1739109036011992, "dur":1606, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739109036013606, "dur":65, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1739109036013691, "dur":23, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1739109036013715, "dur":616, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1739109036014366, "dur":626, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739109036014992, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739109036425943, "dur":236, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739109036426179, "dur":67, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739109036426246, "dur":93, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739109036426339, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739109036426360, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739109036426362, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739109036426378, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739109036426381, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739109036426399, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739109036426401, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739109036426416, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739109036426418, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739109036426434, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739109036426435, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739109036426452, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739109036426454, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739109036426475, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739109036426477, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739109036426492, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739109036426494, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739109036426508, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739109036426510, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739109036426524, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739109036426526, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739109036426541, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739109036426556, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739109036426577, "dur":2446, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1739109036014388, "dur":652, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739109036015050, "dur":6378, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739109036021448, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1739109036021450, "dur":186, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739109036021643, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1739109036021649, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739109036023162, "dur":2878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1739109036026043, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1739109036026215, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739109036027134, "dur":1463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1739109036028660, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1739109036028784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739109036028789, "dur":2183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1739109036031040, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1739109036031209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739109036031216, "dur":1835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1739109036033118, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739109036033271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739109036033842, "dur":3626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739109036037558, "dur":458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1739109036038021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739109036040443, "dur":11233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1739109036051757, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739109036051825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739109036051834, "dur":5343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739109036057260, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739109036057420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739109036057427, "dur":8893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739109036066402, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739109036066492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739109036066499, "dur":5438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739109036072022, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739109036072100, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739109036072107, "dur":6558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739109036078805, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739109036078883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739109036078901, "dur":5344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739109036084318, "dur":102505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739109036186830, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739109036186840, "dur":7221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739109036194155, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739109036194278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739109036194287, "dur":6739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739109036201100, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739109036201169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739109036201177, "dur":6292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739109036208038, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739109036208139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739109036208147, "dur":5955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739109036214172, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739109036214255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739109036214264, "dur":6201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739109036220533, "dur":85721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/CFXRRuntime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739109036306261, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1739109036306273, "dur":1972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/CFXRRuntime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1739109036308312, "dur":117668, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739109036014603, "dur":528, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739109036015131, "dur":6305, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739109036021449, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1739109036021650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739109036024444, "dur":1812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1739109036026320, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1739109036026485, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739109036026937, "dur":1553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1739109036028554, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1739109036028704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739109036028776, "dur":1969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1739109036030816, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1739109036030984, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739109036030993, "dur":2351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1739109036033412, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739109036033666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739109036033951, "dur":12241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739109036046320, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739109036046404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739109036046411, "dur":3377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739109036049871, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739109036049946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739109036049954, "dur":6276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739109036056305, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739109036056386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739109036056394, "dur":7568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739109036064050, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739109036064145, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739109036064159, "dur":4201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739109036068427, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739109036068494, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739109036068501, "dur":4942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739109036073508, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739109036073579, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739109036073587, "dur":5654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739109036079381, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739109036079758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739109036079766, "dur":6293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739109036086141, "dur":195693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739109036281839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1739109036281876, "dur":2828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1739109036284785, "dur":141209, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739109036015465, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739109036015465, "dur":5979, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739109036021453, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1739109036021770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739109036052855, "dur":3337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1739109036056277, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739109036056643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739109036056680, "dur":8136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739109036064923, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739109036064998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739109036065006, "dur":4039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739109036069114, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739109036069183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739109036069190, "dur":4903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739109036074169, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739109036074254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739109036074261, "dur":5467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739109036079802, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739109036079873, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739109036079880, "dur":7212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739109036087206, "dur":178371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739109036265583, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1739109036265593, "dur":1901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1739109036267649, "dur":158363, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739109036014486, "dur":599, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739109036015085, "dur":6353, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739109036021449, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1739109036021763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739109036042714, "dur":6583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1739109036049389, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739109036049507, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739109036049515, "dur":6098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739109036055701, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739109036055778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739109036055785, "dur":5816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739109036061713, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739109036061823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739109036061831, "dur":5594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739109036067507, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739109036067586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739109036067593, "dur":4859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739109036072526, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739109036072716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739109036072723, "dur":5790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739109036078578, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739109036078659, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739109036078667, "dur":4864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739109036083646, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739109036083732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739109036083740, "dur":6576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739109036090383, "dur":78865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739109036169255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739109036169265, "dur":21461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739109036190799, "dur":1330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739109036192134, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739109036192144, "dur":4014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739109036196226, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739109036196317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739109036196326, "dur":3801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739109036200200, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739109036200313, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739109036200332, "dur":2785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739109036203184, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739109036203249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739109036203256, "dur":4026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739109036207359, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739109036207471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739109036207479, "dur":5174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739109036212722, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739109036212792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739109036212800, "dur":3823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739109036216693, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739109036216767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739109036216775, "dur":3760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739109036220611, "dur":86619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739109036307236, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1739109036307245, "dur":1626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1739109036308943, "dur":117008, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739109036014706, "dur":474, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739109036015180, "dur":6272, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739109036021453, "dur":388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1739109036021844, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739109036067074, "dur":1793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1739109036068955, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739109036069037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739109036069043, "dur":6117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739109036075240, "dur":392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739109036075636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739109036075643, "dur":5403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739109036081123, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739109036081224, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739109036081236, "dur":5863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739109036087170, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739109036089744, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739109036089758, "dur":3411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739109036093234, "dur":126950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739109036220188, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1739109036220198, "dur":38437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1739109036258701, "dur":167340, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739109036014787, "dur":407, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739109036015194, "dur":6249, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739109036021448, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1739109036021697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739109036031483, "dur":1960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1739109036033509, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1739109036033667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739109036033673, "dur":5190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1739109036038938, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739109036039012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739109036040450, "dur":2912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739109036043425, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739109036043504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739109036043809, "dur":1856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739109036045736, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739109036045811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739109036045818, "dur":3269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739109036049172, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739109036049249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739109036049258, "dur":4179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739109036053520, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739109036053605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739109036053613, "dur":3941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739109036057631, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739109036057701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739109036057707, "dur":7837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739109036065657, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739109036065809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739109036065816, "dur":4459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739109036070347, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739109036070444, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739109036070451, "dur":5023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739109036075545, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739109036075624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739109036075631, "dur":6276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739109036081980, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739109036082049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739109036082056, "dur":7868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739109036089992, "dur":121094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739109036211092, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739109036211102, "dur":32739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1739109036243907, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1739109036243978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1739109036243984, "dur":3243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1739109036247295, "dur":178651, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739109036014878, "dur":325, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739109036015203, "dur":6237, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739109036021449, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1739109036021652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739109036030487, "dur":1947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1739109036032497, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1739109036032641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739109036032675, "dur":2385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1739109036035140, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer.exe" }}
+,{ "pid":12345, "tid":7, "ts":1739109036035210, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739109036035217, "dur":2354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer.exe" }}
+,{ "pid":12345, "tid":7, "ts":1739109036037631, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036037709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739109036040158, "dur":3103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036043334, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036043415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739109036043540, "dur":2018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036045641, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036045716, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739109036045725, "dur":3467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036049349, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036049449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739109036049457, "dur":5465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036055039, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036055166, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739109036055173, "dur":5916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036061187, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036061268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739109036061307, "dur":5524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036066908, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036067002, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739109036067009, "dur":4936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036072251, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036072359, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739109036072365, "dur":5859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036078429, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036078537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739109036078545, "dur":4586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036083220, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036083296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739109036083303, "dur":9180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036092559, "dur":6400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036098966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739109036098976, "dur":4046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036103100, "dur":1646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036104750, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739109036104773, "dur":4496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036109333, "dur":4070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036113418, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739109036113428, "dur":3763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036117248, "dur":72184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036189438, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739109036189448, "dur":10747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036200312, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036200402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739109036200409, "dur":5401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036205883, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036205955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739109036205964, "dur":6170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036212200, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036212267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739109036212305, "dur":6315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036218693, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036218801, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739109036218812, "dur":4880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1739109036223772, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1739109036223862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739109036231459, "dur":2802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1739109036234330, "dur":389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1739109036234723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739109036234730, "dur":3695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1739109036238556, "dur":2373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1739109036240934, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739109036240946, "dur":3818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1739109036244832, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1739109036245032, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1739109036245039, "dur":4382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1739109036249484, "dur":176456, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739109036014966, "dur":253, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739109036015219, "dur":6247, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739109036021467, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1739109036021793, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739109036053991, "dur":3518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1739109036057628, "dur":284916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1739109036342551, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1739109036342562, "dur":1957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1739109036344587, "dur":81380, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739109036015046, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739109036015047, "dur":6395, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739109036021449, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1739109036021773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739109036053247, "dur":3936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1739109036057257, "dur":549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739109036057811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739109036057818, "dur":8155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739109036066094, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739109036066222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739109036066229, "dur":4312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739109036070609, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739109036070689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739109036070697, "dur":4580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739109036075361, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739109036075437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739109036075444, "dur":5061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739109036080576, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739109036080663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739109036080670, "dur":9073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739109036089837, "dur":334591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739109036424433, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1739109036424441, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1739109036425893, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":9, "ts":1739109036425894, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739109036015144, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739109036015144, "dur":6295, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739109036021448, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1739109036021764, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739109036041365, "dur":8386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1739109036049826, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739109036049900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739109036049907, "dur":4913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739109036054900, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739109036054980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739109036054987, "dur":5649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739109036060739, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739109036060842, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739109036060854, "dur":5852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739109036066785, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739109036066882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739109036066889, "dur":5005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739109036071965, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739109036072071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739109036072078, "dur":6500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739109036078659, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739109036078762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739109036078769, "dur":8139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739109036086984, "dur":182415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739109036269404, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1739109036269415, "dur":1926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1739109036271404, "dur":154602, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739109036015240, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739109036015240, "dur":6213, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739109036021453, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1739109036021654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739109036031227, "dur":2053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1739109036033474, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739109036033862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739109036033867, "dur":33715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739109036067671, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739109036067746, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739109036067753, "dur":4393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739109036072217, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739109036072289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739109036072295, "dur":4989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739109036077368, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739109036077462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739109036077470, "dur":5326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739109036082865, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739109036082938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739109036082946, "dur":9017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739109036092028, "dur":114571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739109036206604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739109036206612, "dur":6143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739109036212820, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739109036212889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739109036212895, "dur":2969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739109036215935, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739109036216021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739109036216029, "dur":3297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739109036219410, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739109036219479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739109036219487, "dur":8841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1739109036228395, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":11, "ts":1739109036228460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739109036228501, "dur":4877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":11, "ts":1739109036233448, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1739109036233524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739109036233530, "dur":7324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1739109036240964, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/level0.resS" }}
+,{ "pid":12345, "tid":11, "ts":1739109036241050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739109036241056, "dur":2435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/level0.resS" }}
+,{ "pid":12345, "tid":11, "ts":1739109036243559, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1739109036243625, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1739109036243664, "dur":4564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1739109036248290, "dur":177652, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739109036015413, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739109036015413, "dur":6054, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739109036021468, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1739109036021823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739109036054902, "dur":3131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1739109036058146, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739109036058239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739109036058246, "dur":6833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739109036065149, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739109036065222, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739109036065229, "dur":3918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739109036069212, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739109036069277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739109036069284, "dur":5663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739109036075025, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739109036075101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739109036075109, "dur":6170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739109036081356, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739109036081429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739109036081437, "dur":8329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739109036089864, "dur":2017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739109036091887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739109036091897, "dur":4913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739109036096992, "dur":2950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739109036099947, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739109036099956, "dur":4122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739109036104149, "dur":82961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739109036187113, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739109036187120, "dur":7333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739109036194518, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739109036194583, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739109036194604, "dur":7417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739109036202090, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739109036202157, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739109036202164, "dur":6265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739109036208498, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739109036208569, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739109036208575, "dur":6748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739109036215405, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739109036215493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739109036215504, "dur":4582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739109036220155, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739109036220224, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739109036220231, "dur":2810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1739109036223116, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":12, "ts":1739109036223324, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739109036231268, "dur":2008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":12, "ts":1739109036233346, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1739109036233420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739109036233428, "dur":9647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1739109036243144, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1739109036243218, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1739109036243226, "dur":4741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gvilo/Desktop/Platformer/3D Platformer_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1739109036248043, "dur":177981, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1739109036430959, "dur":2186, "ph":"X", "name": "ProfilerWriteOutput" }
 ,

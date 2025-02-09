@@ -20,8 +20,6 @@ ScriptsOnlyBuild:
     - CartoonFX.CFXR_Effect
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.Timeline.Editor.dll:
-    - TimelineProjectSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -1023,5 +1021,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Levels/Scenes/Level_1.unity
-  playerPath: "C:/Users/gvilo/Desktop/\u041F\u043B\u0430\u0442\u0444\u043E\u0440\u043C\u0435\u0440/3D
-    Platformer.exe"
+  playerPath: C:/Users/gvilo/Desktop/Platformer/3D Platformer.exe

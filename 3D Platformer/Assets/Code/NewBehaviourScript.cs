@@ -8,13 +8,13 @@ public class NewBehaviourScript : MonoBehaviour
 
     void OnTriggerEnter(Collider Other)//Метод когда входим
     {
-        Other.GetComponent<FirstPersonMovement>().speed *= speedFactor;
+        Other.GetComponent<FirstPersonMovement>().runSpeed *= speedFactor;
     }
 
 
     void OnTriggerExit(Collider Other)//Метод когда выходим
     {
-        Other.GetComponent<FirstPersonMovement>().speed /= speedFactor;
+        Other.GetComponent<FirstPersonMovement>().runSpeed /= speedFactor;
     }
 
 }

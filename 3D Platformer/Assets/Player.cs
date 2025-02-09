@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -8,10 +9,14 @@ public class Player : MonoBehaviour
     private int coins;
     //Переменная для огненного шара
     public GameObject fireballPrefab;
-    // Точка вылета шара 
+    //Точка вылета шара 
     public Transform attackPoint;
     //Максимальное здоровье игрока
     private int health = 10;
+    //проигрывание звука
+    public AudioSource audioSource;
+    //файл содержащий звук урона
+    public AudioClip damageSound;
 
     public void CollectCoins()
     {
@@ -22,8 +27,20 @@ public class Player : MonoBehaviour
     //Метод понижающий здоровье игрока
     public void TakeDamage(int damage)
     {
-        health -= damage;
-        print("Здоровье игрока = " + health);
+        health -= damage; // уменьшаем здоровье
+
+        if (health > 0)
+        {
+            print("Здоровье игрока = " + health); //выводим кол-во жизней
+            audioSource.PlayOneShot(damageSound);//воспроизведение звука урона
+        }
+        else
+        {
+
+            //Получение индекса текущей сцены и ее перезапуск
+            int sceneIndex = SceneManager.GetActiveScene().buildIndex;
+            SceneManager.LoadScene(sceneIndex);
+        }
     }
 
     void Update()

@@ -8,11 +8,31 @@ public class Platform : MonoBehaviour
     public Vector3 direction; //направление движения
     public bool isActive; //состояние платформы
 
-    void Update()
+    void Update() // Движение платформы
     {
         if (isActive)
         {
             transform.position += direction * speed * Time.deltaTime;
+        }
+    }
+
+    void OnTriggerEnter (Collider other)
+    {
+        if (other.tag == "PlatfaromStop") //Если касаемся одну из точек
+        {
+            direction *= -1;//Меняем направление
+        }
+        if (other.tag == "Player")//Если касаемся игрока
+        {
+            isActive = true;//Включить платформу
+        }
+    }
+
+    void OnTriggerExit (Collider other)
+    {
+        if (other.tag == "Player")//Если касаемся игрока
+        {
+            isActive = false;//Выключить платформу
         }
     }
 

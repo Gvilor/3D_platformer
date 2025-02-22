@@ -9,9 +9,13 @@ public class SceneChange : MonoBehaviour
     public string sceneName;
 
 
-    void OnTriggerEnter()
+    void OnTriggerEnter(Collider other)
     {
-        //Перезапуск сцены
-        SceneManager.LoadScene(sceneName);
+        if (other.tag == "Player")
+        {
+            //Перезапуск сцены
+            SceneManager.LoadScene(sceneName);
+        }
+        
     }
 }

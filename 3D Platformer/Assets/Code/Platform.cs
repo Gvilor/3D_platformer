@@ -18,7 +18,7 @@ public class Platform : MonoBehaviour
 
     void OnTriggerEnter (Collider other)
     {
-        if (other.tag == "PlatfaromStop") //Если касаемся одну из точек
+        if (other.tag == "PlatfromStop") //Если касаемся одну из точек
         {
             direction *= -1;//Меняем направление
         }

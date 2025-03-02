@@ -6,13 +6,17 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     //Перменная для хранения монет
-    private int coins;
+    public int coins;
     //Переменная для огненного шара
     public GameObject fireballPrefab;
     //Точка вылета шара 
     public Transform attackPoint;
+
+    //Текущее здоровье игрока
+    public int health = 10;
     //Максимальное здоровье игрока
-    private int health = 10;
+    public int maxHealth = 10;
+
     //проигрывание звука
     public AudioSource audioSource;
     //файл содержащий звук урона
